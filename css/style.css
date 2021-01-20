@@ -1,0 +1,127 @@
+/* LIMPANDO AS FORMATAÇÕES PADRÃO */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	background: white;
+}
+/* CRIANDO O LAYOUT DO BLOG */
+
+#navBar{
+	background-color:#00BFFF;
+	padding: 15px;
+	text-align: center;
+}
+
+#logo {
+	padding: 10px;
+}
+
+#menu-nav a:link, #menu-nav a:visited{		/* FORMATANADO APENAS OS A:LINK QUE ESTIVER DENTRO DO MENU - NAV, UTILIZANDO SELETORES*/
+	padding: 10px;
+	color: #FFF;						
+}
+#menu-nav a:hover{
+	color: #00BFFF;
+	background: #FFF;
+	text-decoration: none;
+}
+
+#area-principal{
+	background: white;
+	width: 920px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#area-postagens{
+ 	width: 660px;
+ 	background: white;
+ 	float: left;
+}
+
+#area-lateral{
+	width: 240px;
+	float: right;
+}
+
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+}
+
+.white {
+	color: white;
+}
+.postagem {
+	padding: 10px;
+	margin-bottom: 20px;
+	background: white;
+}
+.data-postagem{
+	font-size: 0.8em;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+.conteudo-lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 10px;
+
+}
+.postagem-lateral{
+	font-size:0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+.titulo-postagem-lateral{
+	font-size: 1.7em;
+	text-decoration: underline;
+}
+.leia-mais{
+	font-size: 1.7em;
+	text-decoration: underline;
+}
+.tamanhoImg{
+	width:640px;
+	height: 450px;
+}
+h1{
+	font-size: 2em;
+	color: black;
+
+}
+h3{
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+}
+a {
+	text-decoration: none;
+	padding: 10px;
+	font-size: 1.3em;
+	color: black;
+}
+
+p{
+	text-align: justify;
+	font-size: 1.3em;
+}
+a:link, a:visited{		
+	padding: 10px;
+							
+}
+a:hover{
+	text-decoration: underline;
+	color: #00BFFF;
+}
+li{
+	padding: 10px;
+	font-size: 1.5em;
+}
